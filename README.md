@@ -1,4 +1,4 @@
-# Fructus
+# Fruits
 
 Welcome to Fructus! This iOS 14 app with SwiftUI 2.0 served as a colorful encyclopedia of fruits. By building this app, you explored and learned about the exciting new features that Apple engineers added to the SwiftUI 2.0 framework.
 
