@@ -14,7 +14,7 @@ struct SettingsView: View {
   
   var body: some View {
     NavigationView {
-      ScrollView(.vertical, showsIndicators: false) {
+      ScrollView(.vertical, showsIndicators: true) {
         VStack(spacing: 20) {
           
           GroupBox(
@@ -69,11 +69,10 @@ struct SettingsView: View {
             label:
             SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
           ) {
-            SettingsRowView(name: "Developer", content: "John / Jane")
+            SettingsRowView(name: "Developer", content: "Tacettin")
             SettingsRowView(name: "Designer", content: "Robert Petras")
             SettingsRowView(name: "Compatibility", content: "iOS 16")
             SettingsRowView(name: "Website", linkLabel: "Credo Academy", linkDestination: "credo.academy")
-            SettingsRowView(name: "Twitter", linkLabel: "@RobertPetras", linkDestination: "twitter.com/robertpetras")
             SettingsRowView(name: "SwiftUI", content: "4")
             SettingsRowView(name: "Version", content: "1.5.0")
           }
