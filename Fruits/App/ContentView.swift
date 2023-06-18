@@ -32,7 +32,7 @@ struct ContentView: View {
             Image(systemName: "slider.horizontal.3")
           } //: BUTTON
           .sheet(isPresented: $isShowingSettings) {
-            // SettingsView()
+            SettingsView()
           }
       )
     } //: NAVIGATION
